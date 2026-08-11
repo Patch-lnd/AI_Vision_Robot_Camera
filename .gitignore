@@ -1,0 +1,55 @@
+# --- Python virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Python cache/bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Distribution / packaging ---
+build/
+dist/
+*.egg-info/
+*.egg
+
+# --- Environment variables / secrets ---
+.env
+.env.local
+
+# --- VS Code ---
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- OS-generated files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs ---
+*.log
+
+# --- Media captured by the project (videos/photos saved during testing) ---
+# Remove these lines if you actually want to version your test recordings
+*.mp4
+*.avi
+*.jpg
+*.jpeg
+*.png
+captures/
+recordings/
+
+# --- Model files (can be large; re-download instead of versioning) ---
+*.tflite
+*.pt
+*.onnx
+
+# --- pip freeze output is fine to keep tracked, but excluding local pip cache dirs ---
+pip-wheel-metadata/
